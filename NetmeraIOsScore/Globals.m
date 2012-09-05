@@ -1,9 +1,9 @@
 //
-//  Globals.m
-//  Sanal Market
+//  Global.m
+//  NetmeraIOsScore
 //
-//  Created by Ozkan ALTUNER on 08.04.2010.
-//  Copyright 2010 Orangeplus. All rights reserved.
+//  Created by Serhat SARI on 9/4/12.
+//  Copyright (c) 2012 Serhat SARI. All rights reserved.
 //
 
 #import "Globals.h"
@@ -18,7 +18,7 @@
 @synthesize currentUser;
 @synthesize scores;
 
-NSString * const constantContentName = @"ScoresDeneme";
+NSString * const constantContentName = @"Scores";
 NSString * const constantNickname = @"nickname";
 NSString * const constantEmail = @"email";
 NSString * const constantScore = @"score";
