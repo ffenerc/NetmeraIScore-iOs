@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F724D07515F5DA7500313CA9 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F724D07415F5DA7500313CA9 /* DSActivityView.m */; };
+		F7907CC715F6081D0010EA40 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7907CC615F6081D0010EA40 /* libz.1.1.3.dylib */; };
+		F7907CC815F608390010EA40 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F90315F4ECAB00982EAF /* libz.dylib */; };
+		F7907CCF15F630020010EA40 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = F7907CCE15F630020010EA40 /* Score.m */; };
+		F7907CDB15F649470010EA40 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F7907CDA15F649470010EA40 /* Icon.png */; };
+		F7E6F8E515F4EC6C00982EAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F8E415F4EC6C00982EAF /* UIKit.framework */; };
+		F7E6F8E715F4EC6C00982EAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F8E615F4EC6C00982EAF /* Foundation.framework */; };
+		F7E6F8E915F4EC6C00982EAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F8E815F4EC6C00982EAF /* CoreGraphics.framework */; };
+		F7E6F8EF15F4EC6C00982EAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E6F8ED15F4EC6C00982EAF /* InfoPlist.strings */; };
+		F7E6F8F115F4EC6C00982EAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6F8F015F4EC6C00982EAF /* main.m */; };
+		F7E6F8F515F4EC6C00982EAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6F8F415F4EC6C00982EAF /* AppDelegate.m */; };
+		F7E6F8F815F4EC6C00982EAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6F8F715F4EC6C00982EAF /* ViewController.m */; };
+		F7E6F8FB15F4EC6C00982EAF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E6F8F915F4EC6C00982EAF /* ViewController.xib */; };
+		F7E6F90215F4EC9500982EAF /* netmera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F90115F4EC9500982EAF /* netmera.framework */; };
+		F7E6F90615F4ECB800982EAF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F90515F4ECB800982EAF /* QuartzCore.framework */; };
+		F7E6F90815F4ECC000982EAF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F90715F4ECC000982EAF /* MobileCoreServices.framework */; };
+		F7E6F90A15F4ECCA00982EAF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F90915F4ECCA00982EAF /* Security.framework */; };
+		F7E6F90C15F4ECD500982EAF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F90B15F4ECD500982EAF /* AudioToolbox.framework */; };
+		F7E6F90E15F4ECDD00982EAF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F90D15F4ECDD00982EAF /* CFNetwork.framework */; };
+		F7E6F91015F4ECE600982EAF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6F90F15F4ECE600982EAF /* SystemConfiguration.framework */; };
+		F7E6F91B15F4F01000982EAF /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6F91A15F4F01000982EAF /* Globals.m */; };
+		F7E6F92715F4F37A00982EAF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6F92515F4F37A00982EAF /* LoginViewController.m */; };
+		F7E6F92815F4F37A00982EAF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E6F92615F4F37A00982EAF /* LoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F724D07315F5DA7500313CA9 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
+		F724D07415F5DA7500313CA9 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
+		F7907CC615F6081D0010EA40 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		F7907CCD15F630010010EA40 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		F7907CCE15F630020010EA40 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		F7907CDA15F649470010EA40 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F7E6F8E015F4EC6C00982EAF /* NetmeraIOsScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmeraIOsScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E6F8E415F4EC6C00982EAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7E6F8E615F4EC6C00982EAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7E6F8E815F4EC6C00982EAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7E6F8EC15F4EC6C00982EAF /* NetmeraIOsScore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetmeraIOsScore-Info.plist"; sourceTree = "<group>"; };
+		F7E6F8EE15F4EC6C00982EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7E6F8F015F4EC6C00982EAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7E6F8F215F4EC6C00982EAF /* NetmeraIOsScore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetmeraIOsScore-Prefix.pch"; sourceTree = "<group>"; };
+		F7E6F8F315F4EC6C00982EAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7E6F8F415F4EC6C00982EAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7E6F8F615F4EC6C00982EAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7E6F8F715F4EC6C00982EAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7E6F8FA15F4EC6C00982EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F7E6F90115F4EC9500982EAF /* netmera.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = netmera.framework; sourceTree = "<group>"; };
+		F7E6F90315F4ECAB00982EAF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F7E6F90515F4ECB800982EAF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F7E6F90715F4ECC000982EAF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F7E6F90915F4ECCA00982EAF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7E6F90B15F4ECD500982EAF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F7E6F90D15F4ECDD00982EAF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F7E6F90F15F4ECE600982EAF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7E6F91915F4F01000982EAF /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		F7E6F91A15F4F01000982EAF /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
+		F7E6F92415F4F37A00982EAF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F7E6F92515F4F37A00982EAF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F7E6F92615F4F37A00982EAF /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E6F8DD15F4EC6C00982EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7907CC815F608390010EA40 /* libz.dylib in Frameworks */,
+				F7907CC715F6081D0010EA40 /* libz.1.1.3.dylib in Frameworks */,
+				F7E6F91015F4ECE600982EAF /* SystemConfiguration.framework in Frameworks */,
+				F7E6F90E15F4ECDD00982EAF /* CFNetwork.framework in Frameworks */,
+				F7E6F90C15F4ECD500982EAF /* AudioToolbox.framework in Frameworks */,
+				F7E6F90A15F4ECCA00982EAF /* Security.framework in Frameworks */,
+				F7E6F90815F4ECC000982EAF /* MobileCoreServices.framework in Frameworks */,
+				F7E6F90615F4ECB800982EAF /* QuartzCore.framework in Frameworks */,
+				F7E6F90215F4EC9500982EAF /* netmera.framework in Frameworks */,
+				F7E6F8E515F4EC6C00982EAF /* UIKit.framework in Frameworks */,
+				F7E6F8E715F4EC6C00982EAF /* Foundation.framework in Frameworks */,
+				F7E6F8E915F4EC6C00982EAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7E6F8D515F4EC6C00982EAF = {
+			isa = PBXGroup;
+			children = (
+				F7E6F8EA15F4EC6C00982EAF /* NetmeraIOsScore */,
+				F7E6F8E315F4EC6C00982EAF /* Frameworks */,
+				F7E6F8E115F4EC6C00982EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E6F8E115F4EC6C00982EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E6F8E015F4EC6C00982EAF /* NetmeraIOsScore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E6F8E315F4EC6C00982EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7907CC615F6081D0010EA40 /* libz.1.1.3.dylib */,
+				F7E6F90F15F4ECE600982EAF /* SystemConfiguration.framework */,
+				F7E6F90D15F4ECDD00982EAF /* CFNetwork.framework */,
+				F7E6F90B15F4ECD500982EAF /* AudioToolbox.framework */,
+				F7E6F90915F4ECCA00982EAF /* Security.framework */,
+				F7E6F90715F4ECC000982EAF /* MobileCoreServices.framework */,
+				F7E6F90515F4ECB800982EAF /* QuartzCore.framework */,
+				F7E6F90315F4ECAB00982EAF /* libz.dylib */,
+				F7E6F90115F4EC9500982EAF /* netmera.framework */,
+				F7E6F8E415F4EC6C00982EAF /* UIKit.framework */,
+				F7E6F8E615F4EC6C00982EAF /* Foundation.framework */,
+				F7E6F8E815F4EC6C00982EAF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7E6F8EA15F4EC6C00982EAF /* NetmeraIOsScore */ = {
+			isa = PBXGroup;
+			children = (
+				F7907CDA15F649470010EA40 /* Icon.png */,
+				F7907CCD15F630010010EA40 /* Score.h */,
+				F7907CCE15F630020010EA40 /* Score.m */,
+				F724D07315F5DA7500313CA9 /* DSActivityView.h */,
+				F724D07415F5DA7500313CA9 /* DSActivityView.m */,
+				F7E6F92415F4F37A00982EAF /* LoginViewController.h */,
+				F7E6F92515F4F37A00982EAF /* LoginViewController.m */,
+				F7E6F92615F4F37A00982EAF /* LoginViewController.xib */,
+				F7E6F91915F4F01000982EAF /* Globals.h */,
+				F7E6F91A15F4F01000982EAF /* Globals.m */,
+				F7E6F8F315F4EC6C00982EAF /* AppDelegate.h */,
+				F7E6F8F415F4EC6C00982EAF /* AppDelegate.m */,
+				F7E6F8F615F4EC6C00982EAF /* ViewController.h */,
+				F7E6F8F715F4EC6C00982EAF /* ViewController.m */,
+				F7E6F8F915F4EC6C00982EAF /* ViewController.xib */,
+				F7E6F8EB15F4EC6C00982EAF /* Supporting Files */,
+			);
+			path = NetmeraIOsScore;
+			sourceTree = "<group>";
+		};
+		F7E6F8EB15F4EC6C00982EAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7E6F8EC15F4EC6C00982EAF /* NetmeraIOsScore-Info.plist */,
+				F7E6F8ED15F4EC6C00982EAF /* InfoPlist.strings */,
+				F7E6F8F015F4EC6C00982EAF /* main.m */,
+				F7E6F8F215F4EC6C00982EAF /* NetmeraIOsScore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7E6F8DF15F4EC6C00982EAF /* NetmeraIOsScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E6F8FE15F4EC6C00982EAF /* Build configuration list for PBXNativeTarget "NetmeraIOsScore" */;
+			buildPhases = (
+				F7E6F8DC15F4EC6C00982EAF /* Sources */,
+				F7E6F8DD15F4EC6C00982EAF /* Frameworks */,
+				F7E6F8DE15F4EC6C00982EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetmeraIOsScore;
+			productName = NetmeraIOsScore;
+			productReference = F7E6F8E015F4EC6C00982EAF /* NetmeraIOsScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E6F8D715F4EC6C00982EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Serhat SARI";
+			};
+			buildConfigurationList = F7E6F8DA15F4EC6C00982EAF /* Build configuration list for PBXProject "NetmeraIOsScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7E6F8D515F4EC6C00982EAF;
+			productRefGroup = F7E6F8E115F4EC6C00982EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E6F8DF15F4EC6C00982EAF /* NetmeraIOsScore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E6F8DE15F4EC6C00982EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E6F8EF15F4EC6C00982EAF /* InfoPlist.strings in Resources */,
+				F7E6F8FB15F4EC6C00982EAF /* ViewController.xib in Resources */,
+				F7E6F92815F4F37A00982EAF /* LoginViewController.xib in Resources */,
+				F7907CDB15F649470010EA40 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E6F8DC15F4EC6C00982EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E6F8F115F4EC6C00982EAF /* main.m in Sources */,
+				F7E6F8F515F4EC6C00982EAF /* AppDelegate.m in Sources */,
+				F7E6F8F815F4EC6C00982EAF /* ViewController.m in Sources */,
+				F7E6F91B15F4F01000982EAF /* Globals.m in Sources */,
+				F7E6F92715F4F37A00982EAF /* LoginViewController.m in Sources */,
+				F724D07515F5DA7500313CA9 /* DSActivityView.m in Sources */,
+				F7907CCF15F630020010EA40 /* Score.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7E6F8ED15F4EC6C00982EAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E6F8EE15F4EC6C00982EAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7E6F8F915F4EC6C00982EAF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E6F8FA15F4EC6C00982EAF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7E6F8FC15F4EC6C00982EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7E6F8FD15F4EC6C00982EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E6F8FF15F4EC6C00982EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Serhat SARI (U6B533V452)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Serhat SARI (U6B533V452)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetmeraIOsScore/NetmeraIOsScore-Prefix.pch";
+				INFOPLIST_FILE = "NetmeraIOsScore/NetmeraIOsScore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B5D48615-1679-44FC-A4AA-8AD2EAE9C35F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B5D48615-1679-44FC-A4AA-8AD2EAE9C35F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7E6F90015F4EC6C00982EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Serhat SARI (U6B533V452)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Serhat SARI (U6B533V452)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetmeraIOsScore/NetmeraIOsScore-Prefix.pch";
+				INFOPLIST_FILE = "NetmeraIOsScore/NetmeraIOsScore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B5D48615-1679-44FC-A4AA-8AD2EAE9C35F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B5D48615-1679-44FC-A4AA-8AD2EAE9C35F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E6F8DA15F4EC6C00982EAF /* Build configuration list for PBXProject "NetmeraIOsScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E6F8FC15F4EC6C00982EAF /* Debug */,
+				F7E6F8FD15F4EC6C00982EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E6F8FE15F4EC6C00982EAF /* Build configuration list for PBXNativeTarget "NetmeraIOsScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E6F8FF15F4EC6C00982EAF /* Debug */,
+				F7E6F90015F4EC6C00982EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7E6F8D715F4EC6C00982EAF /* Project object */;
+}
