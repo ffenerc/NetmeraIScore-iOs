@@ -446,8 +446,27 @@
  Adds key,value pairs into the object. If the object contains key, the old
  value is replaced.
  
- @param key key to identify specified value
- @param value value associates with the specified key
+ @param key key to identify specified value. 
+
+ @param value value associates with the specified key. This value can be one of these classes instance;
+ 
+ NSString
+ 
+ NSNumber
+ 
+ NSDate
+ 
+ NSData
+ 
+ NSDictionary - members must be one of the above instance
+ 
+ NSArray - members must be one of the above instance
+ 
+ NetmeraGeoLocation
+ 
+ NetmeraMedia
+ 
+ NetmeraUser
  
  @warning Raises an exception if value is not an object that NSDictionary accepts.
  */

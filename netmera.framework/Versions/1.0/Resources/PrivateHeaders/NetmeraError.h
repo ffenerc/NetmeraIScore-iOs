@@ -29,7 +29,8 @@
 		EC_INVALID_DATE_FORMAT,
 		EC_INVALID_URL,
         EC_ALREADY_REGISTERED_EMAIL,
-        EC_NOT_REGISTERED_EMAIL
+        EC_NOT_REGISTERED_EMAIL,
+        EC_DISTANCE_EXEPTION
      };
 }
 
@@ -45,5 +46,6 @@
 + (NSError *) createINVALID_URLErrorWithString:(NSString *)urlString;
 + (NSError *) createALREADY_REGISTERED_EMAILError;
 + (NSError *) createNOT_REGISTERED_EMAILErrorWithString:(NSString *)errorMessage;
++ (NSError *) createEC_DISTANCEError;
 
 @end
