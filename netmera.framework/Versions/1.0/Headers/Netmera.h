@@ -188,7 +188,7 @@
 
 @property (nonatomic, retain) NSString *key;
 /** NSData that holds image data */
-@property (nonatomic, retain) NSData *data;
+@property (nonatomic, retain, getter = getData) NSData *data;
 /** Path of the media */
 @property (nonatomic, retain) NSString *url;
 
@@ -208,6 +208,23 @@
  @return NSURL of the photo with the given size.
  */
 - (NSURL *)getUrlWithPhotoSize:(enum PhotoSize)size;
+
+/**
+ 
+ Returns the data of file with the default size.
+ 
+ @return NSData of the photo.
+ */
+- (NSData *)getData;
+
+/**
+ 
+ Returns the data of file with the given size.
+ 
+ @param size PhotoSize object
+ @return NSData of the photo with the given size.
+ */
+- (NSData *)getDataWithPhotoSize:(enum PhotoSize)size;
 
 @end
 
